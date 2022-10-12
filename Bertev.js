@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Bertv.css';
 import axios from './axios';
 import requests from './Request';
+
 function Bertv()
 
 
@@ -31,11 +32,13 @@ console.log(movie);
     }
     
     return(
+//`/trending/all/week?api_key=${API_KEY}&language=en-US`
+//https://image.tmdb.org/t/p/original/
 
 
 <header className='ban' style={{
                 backgroundSize:"cover",
-                backgroundImage: 'url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Black_flag.svg/1200px-Black_flag.svg.png")',
+                backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")` ,
                 backgroundPosition:"center center"
 
 
