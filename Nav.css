@@ -1,3 +1,5 @@
+
+
 .Nav_contents{
     display:flex;
     justify-content: space-between;
@@ -34,4 +36,25 @@ transition: all 0.5s;
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+.ltabs{
+    margin-left: 30px;;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5 px;
+}
+.tabs{
+    margin-left: 100px;
+}
+.actltabs{
+    
+    color: whitesmoke;
+    font: bold;
+    font-weight: 100;
+}
+.ltabs:hover{
+    font-weight: 100;
+    color: whitesmoke;
+   background-color: #000;
+   transition: all 0.3s;
 }
